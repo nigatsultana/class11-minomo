@@ -1,0 +1,290 @@
+/*common css start*/
+
+body{
+	margin:0;
+	font-family:"Playfair Display", serif;
+	font-size:16px;
+	font-weight: 400;
+	color: #626262;
+}
+/*common css end*/
+/* header start*/
+header{
+	margin:40px 0;
+
+}
+.container{
+	width:90%;
+	margin:0 auto;
+	overflow: hidden;
+}
+.logo{
+	margin-top:10px;
+	width:12%;
+	float: left;
+	
+}
+.logo a{
+	display: inline;
+}
+.logo a img{
+	width:100%;
+}
+.menu{
+	min-width:65%;
+	float:right;
+	
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+	margin:0 50px;
+	font-family:"Playfair Display", serif; 
+	font-size: 16px;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #626262;
+	border-bottom: 1px solid transparent;
+	transition: .33s linear;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+
+/*header end*/
+/*banner start*/
+.banner{
+	overflow: hidden;
+}
+.container1{
+	margin:0 auto;
+	width:90%;
+}
+.b_img img{
+	width: 100%;
+}
+/*banner end*/
+/*getaway Start*/
+.getaway{
+	padding:100px 0 30px;
+	
+}
+.container2{
+	overflow: hidden;
+	width:80%;
+	margin:0 auto;
+	
+}
+.light{
+	margin:0;
+	font-family:"Ubuntu", sans-serif;
+	font-size:14px ;
+	font-weight:300;
+	color: #626262;
+	text-transform: uppercase;
+
+}
+.title{
+	margin:30px 0 40px;
+	font-size: 30px;
+	font-weight:400;
+	color:#262626;
+}
+.text{
+	margin:0;
+	font-size: 14px;
+	line-height: 24px;
+}
+.link{
+	margin-top: 40px;
+	display: block;
+	text-decoration:none;
+	color:#626262;
+}
+/*getaway end*/
+/*blog start*/
+.blog{
+   padding-bottom: 100px;
+}
+
+.item{
+	margin-top: 70px;
+	box-sizing: border-box;
+	float:left;
+	width:47%;
+	
+}
+
+.item:nth-child(even){
+	margin-left:6%;
+}
+.sb_img{
+	margin-bottom: 20px;
+}
+.sb_img img{
+	width:100%;
+}
+
+/*blog end*/
+/*news start*/
+.news{
+	background-color: #f0f0f0;
+	padding: 70px 0;
+}
+.container3{
+	overflow: hidden;
+	width:80%;
+	margin:0 auto;
+}
+.signup{
+	text-align: center;
+}
+.title2{
+	margin-top: 0;
+	margin-bottom: 70px;
+	font-family:"Playfair Display", serif; 
+	font-size: 30px;
+	font-weight: 400;
+	color: #333333;
+}
+.form{
+	position: relative;
+	width:400px;
+	margin: 0 auto;
+	
+}
+.form input{
+	font-family:"Playfair Display", serif; 
+	font-size: 14px;
+	font-weight: 400;
+	color: #626262;
+	width: 345px;
+	height: 45px;
+	border: none;
+	background:transparent ;
+	border-bottom: 1px solid #333333;
+	padding-left: 5PX;
+	padding-right: 45px;
+	
+}
+.form input:focus{
+	outline:0;
+
+}
+.form button{
+	background-color:transparent ;
+	border: none;
+	cursor:pointer;
+	position: absolute;
+	top: 15px;
+	right: 0;
+
+}
+.form button:focus{
+	outline:0;
+}
+/* news end*/
+/*-blog1 start*/
+.blog1{
+
+	padding-bottom: 100px;
+}
+.load{
+	text-align: center;
+}
+.load button{
+	width: 165px;
+	height: 60px;
+	font-family:"Playfair Display", serif;  
+	font-size:20px;
+	font-weight:400;
+	color: #626262;
+	background: transparent;
+	border:1px solid #626262;
+	margin-top: 150px;
+	cursor: pointer;
+	transition: .33s linear;
+}
+.load button:hover{
+	background-color:#626262;
+	color: #f0f0f0;
+}
+/*-blog1 end*/
+/*footer start*/
+footer{
+	margin-top: 40px;
+	overflow: hidden;
+	background-color:#f0f0f0;
+	padding: 30px 0;
+	
+}
+.container4{
+	width:90%;
+	margin:0 auto;
+	overflow: hidden;
+}
+.pages1{
+	text-align: center;
+	min-width: 25%;
+	float: left;
+}
+	
+.pages1 ul{
+	float:left;
+
+}
+.pages1 ul li{
+	float: left;
+	list-style: none;
+}
+.pages1 ul li a{
+	margin:0 20px 0 0;
+	font-family:"Playfair Display", serif; 
+	font-size: 14px;
+	font-weight: 700;
+	display:inline;
+	color:#000000;
+	text-decoration: none;
+}
+
+.social{
+	min-width: 30%;
+	text-align: center;
+	float:right;
+}
+.social ul{
+	float: right;
+}
+.social ul li{
+	float: left;
+	list-style: none;
+}
+.social ul li span{
+	margin-right:15px;
+	font-family:"Playfair Display", serif; 
+	font-size: 14px;
+	font-weight: 700;
+	color:#000000;
+}
+.social ul li a{
+	display: inline-block;
+	margin:0 10px;
+}
+.social ul li:last-child a{
+	margin-right:0px;
+}
+.social ul li img{
+	
+}
+
+
+/*footer end*/
